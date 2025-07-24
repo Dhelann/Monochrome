@@ -1,5 +1,5 @@
 {
-  "name": "Darkened Basic Monochrome",
+  "name": "Monochrome",
   "description": " Monochrome theme, what else do you expect.",
   "authors": [
     {
