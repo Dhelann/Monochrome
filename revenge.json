@@ -55,5 +55,9 @@
     "PRIMARY_700": "#000000",
     "PRIMARY_800": "#000000"
   },
-  "spec": 2
+  "spec": 2,
+  "background": {
+    "url": "https://i.imgur.com/mtV5xSj.jpeg",
+    "alpha": 1
+  }
 }
