@@ -21,7 +21,7 @@
     "CARD_SECONDARY_BG": ["#000000"],
     "EMBED_BACKGROUND": ["#000000"],
     "EMBED_BACKGROUND_ALTERNATE": ["#000000"],
-    "INTERACTIVE_MUTED": ["#FFFFFF"],
+    "INTERACTIVE_MUTED": ["#000000"],
     "PANEL_BG": ["#000000"],
     "TEXT_NORMAL": ["#FFFFFF"],
     "TEXT_PRIMARY": ["#FFFFFF"],
@@ -54,7 +54,5 @@
     "PRIMARY_660": "#000000",
     "PRIMARY_700": "#000000",
     "PRIMARY_800": "#000000"
-  },
-  "spec": 2,
-  "css": ":root { background: url('https://i.imgur.com/mtV5xSj.jpeg') no-repeat center center fixed !important; background-size: cover !important; }"
+  }
 }
