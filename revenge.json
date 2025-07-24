@@ -1,20 +1,20 @@
-{
-  "name": "My Custom Revenge Theme",
-  "description": "Theme with my background image",
-  "authors": [
-    {
-      "name": "YourName"
-    }
-  ],
-  "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#00000000"], 
-    "BACKGROUND_SECONDARY": ["#00000000"],
-    "BACKGROUND_TERTIARY": ["#00000000"],
-    "BACKGROUND_ACCENT": ["#00000080"] 
-  },
-  "background": {
-    "url": "https://i.imgur.com/mtV5xSj.jpeg",
-    "alpha": 1,
-    "blur": 0
+import { registerCSS, unregisterCSS } from "@vendetta/patcher";
+
+let css = `
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: url("https://i.imgur.com/mtV5xSj.jpeg") no-repeat center center / cover;
+    z-index: -1;
   }
-}
+`;
+
+export default {
+  onLoad() {
+    registerCSS(css);
+  },
+  onUnload() {
+    unregisterCSS(css);
+  }
+};
