@@ -1,6 +1,6 @@
 {
   "name": "Monochrome",
-  "description": " Monochrome theme, what else do you expect.",
+  "description": "Monochrome theme, what else do you expect.",
   "authors": [
     {
       "name": "Dhelan"
@@ -56,8 +56,5 @@
     "PRIMARY_800": "#000000"
   },
   "spec": 2,
-  "background": {
-    "url": "https://i.imgur.com/mtV5xSj.jpeg",
-    "alpha": 1
-  }
+  "css": ":root { background: url('https://i.imgur.com/mtV5xSj.jpeg') no-repeat center center fixed !important; background-size: cover !important; }"
 }
